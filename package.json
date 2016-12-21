@@ -1,0 +1,24 @@
+{
+  "name": "rainfall",
+  "version": "1.0.0",
+  "description": "Consider the following picture:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madetech/rainfall.git"
+  },
+  "keywords": [],
+  "author": "Richard Foster <richard@rpf.me> (http://rpf.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madetech/rainfall/issues"
+  },
+  "homepage": "https://github.com/madetech/rainfall#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}

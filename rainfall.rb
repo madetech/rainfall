@@ -1,5 +1,5 @@
 class Rainfall
   def calculate(heights)
-    :whatever
+    1
   end
 end

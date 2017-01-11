@@ -2,15 +2,25 @@ class Rainfall
   def calculate(heights)
     @total_area = 0
 
-    heights.each_with_index do |v, i|
-      max = heights[0..i].max
-      right_hand_max = heights[i..-1].max
+    heights.inject do |v, i|
+      max = get_max(heights)
+      right_hand_max = right_hand_max(heights)
 
       lowest_wall = [max, right_hand_max].min
 
       @total_area += lowest_wall - v
     end
-
-    @total_area
   end
+
+  private
+
+  def right_hand_max(heights)
+    heights[i..-1].max
+  end
+
+  def get_max(heights)
+    max = heights[0..i].max
+  end
+
+  def lowest
 end
